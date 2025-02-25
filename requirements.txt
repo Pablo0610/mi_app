@@ -1,0 +1,7 @@
+Flask
+pandas
+numpy
+pulp
+flask-cors
+networkx
+flask_ngrok
