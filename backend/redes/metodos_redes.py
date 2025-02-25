@@ -1,8 +1,8 @@
 def metodo_redes(subopcion):
-    if subopcion == 'Metodo de costo minimo':
-        return 'Metodo de costo minimo'
-    elif subopcion == 'Metodo de transporte de North-West':
-        return 'Metodo de transporte de North-West'
-    elif subopcion == 'Metodo de transporte de Vogel':
-        return 'Metodo de transporte de Vogel'
-    return 'No se encontro la subopcion'
+    if subopcion == 'Algoritmo de Dijkstra':
+        return 'Ejecutando Algoritmo de Dijkstra...'
+    elif subopcion == 'Algoritmo de Floyd-Warshall':
+        return 'Ejecutando Algoritmo de Floyd-Warshall...'
+    elif subopcion == 'Algoritmo A*':
+        return 'Ejecutando Algoritmo A*...'
+    return 'No se encontró la subopción'
